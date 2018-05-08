@@ -1,0 +1,163 @@
+.title{
+    width: 3rem;
+    font-size: 0.16rem;
+    margin: 0 auto;
+    border: 0.01rem solid #000
+}
+// .detail{
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     z-index: 10000;
+// }
+.article{
+    padding-top: 0.2rem; 
+    
+    .article-img{
+        height: 3.8rem;
+        width: 7.5rem;
+        //margin-bottom: 0.2rem;
+        padding-top: 0.4rem;
+        img{
+            height: 3rem;
+            width: 100%;
+        }
+        .headImg{
+            height: 3rem;
+            width: 3rem;
+            display: block;
+            margin: 0 auto ;
+        };
+        .timeandReadnum{
+            width: 6.9rem;
+            margin: 0 auto;
+            height: 0.8rem;
+            line-height: 0.8rem;
+            font-size: 0.25rem;
+        }
+    };
+    .article-content{
+        width: 6.9rem;
+        margin: 0 auto;
+        .lm{
+            margin-top: 0.3rem;
+            color:  #555555;
+            font-size: 0.32rem;
+            line-height: 0.6rem;
+           .lmtitle{
+                color:#FFA615
+            }
+        }
+        .emptyIcon{
+            width: 2rem;
+            height: 3rem;
+            //margin-top: 1.5rem;
+            margin: 1.5rem auto 0;
+            img{
+                width: 1.76rem;
+                height: 2.2rem;
+                display: block;
+                margin: 0 auto 0.3rem;
+            };
+        }
+        
+        .article-title{
+            //height: 0.56rem;
+            font-size: 0.4rem;
+            margin: 0.3rem 0 0.2rem 0;
+            color: #353535
+        };
+        .content{
+            text-indent: 2em;
+            overflow: hidden;
+            p{
+                font-size: 0.3rem;
+                line-height: 0.6rem;
+                strong{
+                    line-height: 0.6rem;
+                }
+            }
+            
+            img{
+                width: 5.6rem!important;
+                height: 2.64rem!important;
+                margin: 0 auto;
+            }
+        }
+        .personalContent{
+            font-size: 0.32rem;
+            line-height: 0.6rem;
+        }
+        .personalExperience{
+            margin-top: 0.3rem;
+            span{
+                color: #595959;
+                font-size: 0.32rem!important;
+                line-height: 0.6rem;
+            }
+            
+            .mr_tang_title{
+                font-size: 0.32rem!important;
+                p{
+                    font-size: 0.32rem!important;
+                    color: #595959;
+                    line-height: 0.6rem;
+                }
+                h3{
+                    font-size: 0.32rem;
+                    line-height: 0.55rem;
+                    margin-bottom:0.2rem;
+                    padding-left: 0.4rem;
+                    background: url('/static/images/title.png') no-repeat left;
+                    background-size: 0.3rem 0.3rem
+                }
+            }
+            .jianjie_text_mr{
+                font-size: 0.32rem;
+                line-height: 0.6rem;
+                p{
+                    span{
+                        font-size: 0.32rem!important;
+                    }
+                }
+            }
+        }
+        
+        .share{
+            width: 4.9rem;
+            height: 0.7rem;
+            margin: 0.5rem auto;
+            display: flex;
+            justify-content: space-around;
+            img{
+                width: 0.7rem;
+                height: 0.7rem
+            }
+        };
+        img{
+            width: 100%;
+            height: 1.3rem;
+        };
+        .foot{
+            width: 100%;
+            height: 1.5rem;
+            text-align: center;
+            line-height: 1.5rem;
+            color: rgba(160, 160, 160, 1);
+            font-size: 0.24rem;
+            position: relative;
+            .backTop{
+                width: 1rem;
+                height: 1rem;
+                border-radius: 0.5rem;
+                position: absolute;
+                right: 0.2rem;
+                top: -0.3rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
